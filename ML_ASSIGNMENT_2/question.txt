@@ -1,0 +1,7 @@
+1. What are the advantages of a CNN over a fully connected Deep Neural Network for image classification(Minimum three advantages)? (2points)
+
+2. Build a Convolutional Neural Network for the MNIST dataset(you can load the data from Keras). Your CNN should have two convolutional layers(activation = 'relu') followed by a pooling layer, then a dropout layer with a dropout of 0.25, then a dense layer(try 'relu' and 'tanh' activation functions), followed by another dropout layer with 50% dropout, and finally an output layer. Report the model's accuracy on your test data. (6 points)
+
+Submission: Submit html version of your notebook. Also, include the screenshots of your model, results in the document where you will have answers for questions 1 and 3. 
+
+3. Why would you want to add a max pooling layer rather than a convolutional layer with the same stride? (2 points)
