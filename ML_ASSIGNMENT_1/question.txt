@@ -1,0 +1,23 @@
+Task 1:
+
+Create a text classifier using CNN for the movie review dataset. Dataset can be downloaded from https://github.com/dipanjanS/nlp_workshop_dhs18/raw/master/Unit%2011%20-%20Sentiment%20Analysis%20-%20Unsupervised%20Learning/movie_reviews.csv.bz2Links to an external site.. Steps in doing text classification.
+
+a. Download the data. split it into train, test
+
+b. Preprocess the data if necessary and vectorize the data
+
+c. Create a simple Keras sequential model with 3 Convolution layers (try with any activation function, dropout, etc.).
+
+d. Predict on the test data. Report precision, recall, and accuracy on your test data.
+
+Task 2:
+
+Develop a Face classification system for the ‘5 Celebrity Faces Dataset‘. Dataset can be downloaded from https://www.kaggle.com/datasets/dansbecker/5-celebrity-faces-dataset (you may need a kaggle login to download the data). You can implement your own CNN or one of the available CNN models for face detection (if you are using an available model, don't forget to cite them). You can use a classifier of your choice. 
+
+Task 3:
+
+Compare the performance of CNN for text classification and image classification. 
+
+ 
+
+Implement both classifications in the same notebook and submit html, ipynb files. For task 3, submit a pdf file. 
