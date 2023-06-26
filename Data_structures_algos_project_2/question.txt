@@ -1,0 +1,74 @@
+Project 2: Graph Algorithms and Related Data Structures 
+Singles-source shortest path algorithm, Minimum Spanning Tree (MST), and Strongly Connected Components (SSCs)
+Note: You can work alone or in a team of TWO max.
+[All tangible works (e.g. code and report) handed in must be original. Duplicate or very similar assignments will receive a failing grade. Also the defined actions will be taken according to the rules of the department, college, and university.]
+
+Problem 1: Single-source Shortest Path Algorithm
+
+Find shortest path tree in both directed and undirected weighted graphs for a given source vertex. Assume there is no negative edge in your graph. You will print each path and path cost for a given source.
+
+Problem 2: Minimum Spanning Tree Algorithm
+
+Given a connected, undirected, weighted graph, find a spanning tree using edges that minimizes the total weight 
+. Use either Kruskal's or Prim's algorithm to find Minimum Spanning Tree (MST). You will printout edges of the tree and total cost of minimum spanning tree.
+
+Problem 3: Finding Strongly Connected Components
+
+Given a directed graph 
+ with 
+ vertices and 
+ edges. This graph may not be simple. Decompose this graph into Strongly Connected Components (SCCs) and print the components. You can use the same input format defined below.  
+
+Input Format:
+
+For each problem, you will take input from a text file. Say you want to run algorithm on the following undirected graph.
+
+p2-graph.jpg
+
+ 
+
+The corresponding file format would be:
+
+6 10 U
+A B 1
+A C 2
+B C 1
+B D 3
+B E 2
+C D 1
+C E 2
+D E 4
+D F 3
+E F 3
+A
+Here, the first two numbers represent the number of vertices and edges. The letter U stands for undirected graph (D for directed). From the second line, it mentions all edges and its weight (e.g. 
+ and its weight is 1. The last line is optional. If given, it represents the source node.
+
+If you prefer different input format, you can do so. But must provide enough details so that TA can run your program easily.
+
+Program Execution:
+
+For each algorithm, run your program for four different graphs of your choice. Use your judgement to define test graphs that you think interesting and reasonable. For example:
+
+Undirected graph: at least 10 nodes and 14 edges
+Directed graph: at least 11 nodes and 20 edges
+For problem 3: 
+Directed graph: at least 11 nodes and the number of edges that make sense
+We can find interesting graphs from the Internet and textbooks.
+Grading Scheme:
+
+Project 2 - Rubrics new.jpg
+
+ 
+
+Submission Instructions:
+
+Submit a well-formatted report covering a short description of each algorithm, data structure chosen, detail analysis of runtime, sample input/output, instruction to run your program easily. Follow the grading scheme given above and write report accordingly.
+Upload error free code to run.
+You can use programming languages like C/C++, Java, Python, or C#.
+Late Submission Penalty:
+
+If you need a few extra days, take prior approval.
+Otherwise:
+For each extra day 10 points penalty. 
+No submission will be accepted after three days of deadline.
