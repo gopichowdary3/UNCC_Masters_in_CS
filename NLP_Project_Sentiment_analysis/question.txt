@@ -1,0 +1,28 @@
+Sentiment analysis is a popular application of natural language processing that involves analyzing text data to determine the sentiment of the author. In this project, you will perform sentiment analysis on data scraped from Twitter using Python and natural language processing techniques.
+
+The project will involve the following steps:
+
+Web Scraping:  Use the Tweepy library and the Twitter API to web scrape data from Twitter. Specifically, search for tweets from the following universties in the link (Best Computer Science Programs - Top Science Schools - US News RankingsLinks to an external site.) using a specific hashtag such as [Eg: For UNC Charlotte it will be #UNCC, #Charlotte, #UNCCharlotte] and collect the tweet text and metadata such as the user, date, and time. [ NOTE: Each Student has to take different universities from the link given and no student has to opt for the universities that are outside the URL link provided i.e., One university per person). Each person should at least collect 1500 tweets and maximum can be up to your choice also you need to collect tweets from at least 3 hashtags from the university you have opted (Max can be upto your choice). Also, the tweets that you have pulled from the twitter must be UNIQUE/DISTINCT (i.e., the tweets shouldn't be repeated). ]
+
+Preprocessing: The raw text data must be preprocessed by cleaning the text and removing any unnecessary characters such as punctuations and stop words.
+
+Feature Extraction:  Extract features from the preprocessed text using the bag-of-words approach and TF-IDF. This involves creating a matrix of word counts for each tweet and using TF-IDF to weigh the importance of each word. [NOTE: Dont Use Text Blob or Spacy for labelling the sentiments. You can either label them manually or use Transformers.]
+
+Model Training:  Implement a sequential neural network model using embedding layer, LSTM, CNN, GRU, and dense output layers. The model will be trained using binary cross-entropy loss and the Adam optimizer and try to get a better fit for the model (both for testing and training). [NOTE: Before implementing you need to tokenize the text using any tokenization and pad the sequences of the text and some points will be deducted if the model overfits or underfits.]
+
+Model Evaluation:  Evaluate the performance of the model on the testing set using metrics such as accuracy, precision, recall, and F1-score and visualize the prediction metrics using confusion matrix.[Visualization can be of your choice, you can either use seaborn heatmap or matplotlib.]
+
+The neural network model should be able to predict the padded sequence of the sentence i.e., predicting the sentiment of the sentence. [NOTE: At least give 10 sentences to test the polarity of the sentence using your neural network model.]
+
+A report based on the code should be presented for sentiment analysis of tweets using Python.
+
+The report should cover the following points:
+
+An introduction to the project and its objectives
+Details on the data collection process, including the use of the Twitter API to scrape tweets
+A description of the data preprocessing steps, such as removing URLs, mentions, hashtags, punctuation, and stop words
+A summary of the model architecture, including the use of sequential neural networks.
+Results and evaluation metrics, including accuracy, precision, recall, and F1-score
+Discussion of any limitations or potential improvements to the model
+Conclusion
+Include any visualizations or code snippets to support your analysis. The report should be approximately 5-7 pages long and written in a clear and concise manner.
