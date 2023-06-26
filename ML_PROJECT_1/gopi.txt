@@ -1,0 +1,28 @@
+
+This assignment aims to create a neural network model using LSTM and CNN to predict male and female names. Use nltk names data (if you are not sure how to download this data, you can use nltk.download('popular') to download the entire collection and load names data). As a part of nltk names data, you will have two files, male.txt(contains male names) and female.txt(contains female names). Randomly shuffle both the names and split the data into train, test data. Preprocess the data if necessary.
+
+Visualize the distribution of the names(males, females). You can use matplotlib python library or any other visualization library of your choice. 
+
+You can use vectorize the data using the word embedding model of your choice (you can reuse the code from any of the colab notebooks we saw in class regarding vectorization. If reusing, specify from which notebook that code was taken). 
+
+Task 1: Create a convolutional neural network model with two 1D convolutional layers. Use sigmoid activation and apply a dropout of 0.3 after creating the convolution layers. In the end, create a softmax layer. Predict whether the names in test data are male or female. Evaluate your predictions (you can use the scikit learn classification report).
+
+Task 2: Create a simple sequential model with an LSTM layer of 32 units. Use sigmoid activation. Predict whether the names in test data are male or female. Evaluate your predictions (you can use the scikit learn classification report).
+
+Task 3: Mixing LSTM and CNN for prediction. Combine LSTM and CNN layers(e.g., lstm layer followed by CNN layer, etc.) to make predictions. Try different (max 2) activation functions and dropout rates, and report your results.
+
+Submission: For tasks 1, 2, and 3, submit ipynb and html files.
+
+Report:
+
+Your report should have the
+
+Section 1: Aim of this assignment, introduction.
+
+Section 2: An explanation of LSTM and CNN (based on the materials you read).
+
+Section 3: Explanation of all three tasks. Screenshots of the code and results. 
+
+Section 4: Compare all these three tasks and compare your results. 
+
+Section 5: Conclusion.
