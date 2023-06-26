@@ -1,0 +1,22 @@
+11 20 D
+A B 3
+A E 5
+A C 6
+B H 2
+C H 4
+C G 3
+D E 2
+D F 5
+E G 3
+F I 6
+F A 2
+G B 2
+G I 5
+H A 3
+H E 5
+I D 6
+I E 4
+I H 4
+I L 2
+L E 3
+A
