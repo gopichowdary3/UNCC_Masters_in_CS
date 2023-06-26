@@ -1,0 +1,18 @@
+You will implement some comparison-based sorting algorithms and observe performance for different input sizes.
+ 
+Implement the following sorting algorithms.
+Insertion sort
+Merge sort
+Heapsort [vector based, and insert one item at a time]
+In-place quicksort (any random item or the first or the last item of your input can be pivot).
+Modified quicksort
+Use median-of-three as pivot.
+For small sub-problem of size 
+ , you must use insertion sort.
+Execution instructions:
+
+Run these algorithms for different input sizes (e.g. 
+ = 1000, 2000, 4K, 5K, 10K, 20K, 40K, 50K, 60K, 80K, 100K). You will randomly generate input for execution. Record the execution time (need to take the average of several runs) and plot them all in a single graph against various input sizes. Note that, you will compare all sorting algorithms for the same data set.
+Also observe and present performance of the following two special cases:
+Input array is already sorted.
+Input array is reversely sorted.
